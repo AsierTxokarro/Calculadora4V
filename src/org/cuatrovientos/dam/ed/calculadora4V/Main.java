@@ -10,7 +10,7 @@ public class Main {
 
 		double num1, num2 = 0;
 		char operando;
-		
+		System.out.println("CALCULADORA");
 		System.out.print("Escribe el primer numero: ");
 		
 		  num1 = scan.nextDouble();
@@ -20,9 +20,8 @@ public class Main {
 		System.out.print("Introduce operacion: ( +, -, *, / ): ");
 		
 		  operando = scan.next().charAt(0);
-
-		
-		if (operando == '+') {
+		  
+		  if (operando == '+') {
 			System.out.println(num1 + num2);
 		} else if (operando == '-') {
 			System.out.println(num1 - num2);
